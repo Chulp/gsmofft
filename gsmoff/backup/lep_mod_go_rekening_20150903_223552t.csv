@@ -1,0 +1,55 @@
+id;name;rekeningnummer;rekening_type;comment;balans;balans_date;budget_a;budget_b
+1;"Geplaatst kapitaal";1000;2;;0.00;0000-00-00;0;0
+2;Reserves;1320;2;;0.00;0000-00-00;0;0
+3;Oprichtingskosten;2001;1;;0.00;0000-00-00;0;0
+4;"Investeringen onroerendgoed";2830;1;;0.00;0000-00-00;0;0
+5;"Aflossingen onroerendgoed";2831;1;;0.00;0000-00-00;0;0
+6;"Leningen aan bedrijven";2850;1;;0.00;0000-00-00;0;0
+7;"Aflossingen op bedrijfsleningen";2851;1;;0.00;0000-00-00;0;0
+8;"Te ontvangen betalingen en ontvangen";4000;1;;0.00;0000-00-00;0;0
+9;"Te ontvangen facturen";4100;2;;0.00;0000-00-00;0;0
+10;"Te Betalen en betaald";4110;2;;0.00;0000-00-00;0;0
+11;"Te betalen nettoloon en salaris";4150;2;;0.00;0000-00-00;0;0
+12;"Af te dragen loonheffing en ZVW";4160;2;;0.00;0000-00-00;0;0
+13;"Salaris verplichtingen";4300;2;;0.00;0000-00-00;0;0
+14;"Leningen op vaste termijn of annuiteit";4301;2;;0.00;0000-00-00;0;0
+15;"Schulden met variable looptijd";4330;1;;0.00;0000-00-00;0;0
+16;"Te verhalen BTW";4500;2;;0.00;0000-00-00;0;0
+17;"Af te dragen BTW";4510;2;;0.00;0000-00-00;0;0
+18;"Over te dragen kosten";4600;2;;0.00;0000-00-00;0;0
+19;"Schulden uit resultaatbestemming";4700;2;;0.00;0000-00-00;0;0
+20;"Bank Spaar";5501;1;;0.00;0000-00-00;0;0
+21;"Rekening courant verhouding met DGA";5503;1;;0.00;0000-00-00;0;0
+22;"Bank R/C";5600;1;;0.00;0000-00-00;0;0
+23;Kas;5700;1;;0.00;0000-00-00;0;0
+24;Kosten;6020;4;;0.00;0000-00-00;16020;26020
+25;"Kosten inkoop";6040;4;;0.00;0000-00-00;16040;26040
+26;"Bruto loon en - salarissen";6200;4;;0.00;0000-00-00;16200;26200
+27;"Project kosten";6210;4;;0.00;0000-00-00;16210;26210
+28;"Te verhalen project kosten";6220;4;;0.00;0000-00-00;16220;26220
+29;"Promotie kosten";6450;4;;0.00;0000-00-00;16450;26450
+30;"Kantoor kosten";6460;4;;0.00;0000-00-00;16460;26460
+31;"IT kosten";6470;4;;0.00;0000-00-00;16470;26470
+32;"Kosten externe diensten";6480;4;;0.00;0000-00-00;16480;26480
+33;"Bank-en rentekosten";6490;4;;0.00;0000-00-00;16490;26490
+34;"Rente lasten";6510;4;;0.00;0000-00-00;16510;26510
+35;"Belastingen op bedrijfsresultaat";6700;4;;0.00;0000-00-00;16700;26700
+36;"Geraamde belasting op bedrijfresultaat";6702;4;;0.00;0000-00-00;16702;26702
+37;"Resultaat verwerking";6900;4;;0.00;0000-00-00;16900;26900
+38;"Inkomsten uit verkoop";7010;5;;0.00;0000-00-00;17010;27010
+39;"Inkomsten uit diensten";7020;5;;0.00;0000-00-00;17020;27020
+40;"Afsluitprovisie betaald";7030;5;;0.00;0000-00-00;17030;27030
+41;"Afsluitprovisie ontvangen";7031;5;;0.00;0000-00-00;17031;27031
+42;"Inkomsten uit activa";7500;5;;0.00;0000-00-00;17500;27500
+43;"Ongeraliseerde boekwinst op activa";7501;5;;0.00;0000-00-00;17501;27501
+44;"Rente inkomsten";7510;5;;0.00;0000-00-00;17510;27510
+45;"Overige inkomsten";7690;5;;0.00;0000-00-00;17690;27690
+46;"Te ontvangen betalingen";4001;1;;0.00;0000-00-00;0;0
+47;"Te Betalen";4111;2;;0.00;0000-00-00;0;0
+48;"Rekening courant verhouding met Dochter";5504;1;;0.00;0000-00-00;0;0
+49;"Reservering voor slechte leningen";2859;1;;0.00;0000-00-00;0;0
+50;Deelnemingen;2900;1;;0.00;0000-00-00;0;0
+51;"Resultaat op deelnemingen";7502;5;;0.00;0000-00-00;17502;27502
+52;"Voorziening oninbare vorderingen ";6520;4;;0.00;0000-00-00;16520;26520
+53;"Rente lening deelneming";7514;5;;0.00;0000-00-00;17514;27514
+54;"Bankrente minus kosten";7515;5;;0.00;0000-00-00;17515;27515
