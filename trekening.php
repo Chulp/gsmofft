@@ -34,7 +34,7 @@ $regelsArr = array(
   'module' => 'rekening',
 // voor versie display
   'modulen' => 'trekening',  
-  'versie' => ' v20150916',
+  'versie' => ' v20160108 ',
 // general parameters
   'app' => 'rekening',  
   'app2' => 'booking',  
@@ -276,7 +276,7 @@ if ( isset( $_POST[ 'command' ] ) ) {
       $regelsArr[ 'mode'] = 9;
       break; 
     case $MOD_GSMOFF['tbl_icon'][11]: //print model
-	  $regelsArr['filename_pdf'] = strtolower( $regelsArr[ 'project' ] . $regelsArr[ 'today_pf' ] ) . '.pdf';
+	  $regelsArr['filename_pdf'] = strtolower( $regelsArr[ 'project' ] ) . '.pdf';
       $regelsArr ['mode'] = 9;
       break;
     case $MOD_GSMOFF['tbl_icon'][13]: //budget
@@ -331,15 +331,17 @@ if (!isset($query)) {
     /*
     * initiatie pdf before starting the normal process
     */
+ 	require_once( $place_incl . 'pdf.inc' );  
     $pdf = new PDF();
-    $title = ucfirst($regelsArr ['app']);
-    $owner = $regelsArr ['owner'] ;    
+    $title = ucfirst ($regelsArr ['app']);
+    $owner = $regelsArr ['owner'] ;  
+	$run= $regelsArr['today_pf'];
     $pdf->AliasNbPages();
     $pdf_text='';
     $pdf_data = array();
     $pdf->AddPage();
     $pdf->ChapterTitle(1,ucfirst($regelsArr ['app']));
-//    $pdf->SetFont('Arial','',10);
+    $pdf->SetFont('Arial','',8);
     $i=0;
     foreach ($fieldArr as $key => $value ){ $regelsArr ['kop'][$i]=$key; $i++;}
     if ($regelsArr['print_regels'] >1 ) { 
@@ -363,11 +365,11 @@ if (!isset($query)) {
       }
     }
     if(isset($settingArr['opinfo'])) $pdf_text .="\n".stripslashes(htmlspecialchars($settingArr['opinfo']));
-    $pdf_text .="\nAantal records : " . $regelsArr ['n'].CH_CR;
-    $pdf_text .= "Document created on : " . $run . CH_CR;
-    if ( $debug ) $pdf_text .= CH_CR. "Template version : " . $regelsArr ['module'].$regelsArr ['versie'] . CH_CR;
+	$pdf_text .= CH_CR.CH_CR.$regelsArr['filename_pdf'].CH_CR ;
+	$pdf_text .= "Aantal records : " . $regelsArr ['n'].CH_CR;
+    $pdf_text .= "Document created on : " . str_replace("_", " ",$run ). CH_CR;
+    if ( $debug ) $pdf_text .= CH_CR. "Version : " . $regelsArr ['module'].$regelsArr ['versie'] . CH_CR;
 	if (strlen($regelsArr[ 'search' ]) >1) $pdf_text .= CH_CR."Selection : " . $regelsArr[ 'search' ]; 	
-    $pdf_text .= $regelsArr['filename_pdf'].CH_CR ;
 // pdf output
     $pdf->DataTable ($pdf_header, $pdf_data, $regelsArr[ 'cols']);  
     $pdf->ChapterBody($pdf_text);
