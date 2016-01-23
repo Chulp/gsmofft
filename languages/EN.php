@@ -3,7 +3,7 @@
  *  @template       Office toolset
  *  @version        see info.php of this template
  *  @author         Gerard Smelt
- *  @copyright      2010-2014 Contracthulp B.V.
+ *  @copyright      2010-2016 Contracthulp B.V.
  *  @license        see info.php of this module
  *  @platform       see info.php of this module
  *
@@ -225,8 +225,8 @@ $LINETEMP[ 4 ] = '<tr %1$s>%2$s %3$s<td>%4$s</td></tr>'.CH_CR;
 $LINETEMP[ 5 ] = '<tr %1$s><td>%2$s %3$s<td>%4$s</td></tr>'.CH_CR;
 $LINETEMP[ 6 ] = '<tr><td colspan="2">%1$s</td><td colspan="3">%2$s</td></tr>'.CH_CR;
 $LINETEMP[ 7 ] = '<tr %1$s><td colspan="%2$s">%4$s</td><td colspan="%3$s">%5$s</td></tr>'.CH_CR;
-$LINETEMP[11] = '<tr %1$s><td>%2$s</td><td>%3$s</td><td>%4$s</td><td>%5$s</td><td>%6$s</td><td>%7$s</td></tr>'.CH_CR;
-$LINETEMP[12] = '<tr %1$s><td>%2$s</td><td>%3$s</td><td>%4$s</td><td align="right">%5$s</td><td align="right">%6$s</td><td align="right">%7$s</td></tr>'.CH_CR;
+$LINETEMP[ 11 ] = '<tr %1$s><td>%2$s</td><td>%3$s</td><td>%4$s</td><td>%5$s</td><td>%6$s</td><td>%7$s</td></tr>'.CH_CR;
+$LINETEMP[ 12 ] = '<tr %1$s><td>%2$s</td><td>%3$s</td><td>%4$s</td><td align="right">%5$s</td><td align="right">%6$s</td><td align="right">%7$s</td></tr>'.CH_CR;
 
 $ICONTEMP[ 1 ]  = '<input class="'.$MOD_GSMOFF[ 'tbl_icon2' ][9].'" name="command" type="submit" value="'.$MOD_GSMOFF[ 'tbl_icon' ][1].'" style="width: 100%;" />'.CH_CR;
 $ICONTEMP[ 2 ]  = '<input class="'.$MOD_GSMOFF[ 'tbl_icon2' ][3].'" name="command" type="submit" value="'.$MOD_GSMOFF[ 'tbl_icon' ][2].'" style="width: 100%;" />'.CH_CR;

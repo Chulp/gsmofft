@@ -3,7 +3,7 @@
  *  @template       Office toolset
  *  @version        see info.php of this template
  *  @author         Gerard Smelt
- *  @copyright      2010-2014 Contracthulp B.V.
+ *  @copyright      2010-2016, Gerard Smelt
  *  @license        see info.php of this module
  *  @platform       see info.php of this module
  */

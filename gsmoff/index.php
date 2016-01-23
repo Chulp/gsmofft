@@ -3,8 +3,7 @@
  *  @module         Office toolset
  *  @version        see info.php of this module
  *  @author         Gerard Smelt
- *  @copyright      2014, Gerard Smelt
- *  @system 		Lepton 1.3.0
+ *  @copyright      2010-2016, Gerard Smelt
  *  @license        GNU General Public License
  *  @license terms  see info.php of this module
  *  @platform       see info.php of this module

@@ -3,7 +3,7 @@
  *  @module         Office toolset legal
  *  @version        see info.php versie below
  *  @author         Gerard Smelt
- *  @copyright      2010 - 2015, Contracthulp B.V.
+ *  @copyright      2010 - 2016, Contracthulp B.V.
  *  @license        see info.php of this module
  *  @platform       see info.php of this module
  */

@@ -3,7 +3,7 @@
  *  @module         Office toolset
  *  @version        see info.php of this module
  *  @author         Gerard Smelt
- *  @copyright      2015, Gerard Smelt
+ *  @copyright      2010-2016, Gerard Smelt
  *  @license        see info.php of this module
  *  @platform       see info.php of this module
  */
@@ -29,12 +29,12 @@ if ( defined( 'LEPTON_PATH' ) ) {
 $module_directory = 'gsmofft';
 $module_name = 'Office Tools';
 $module_function = 'tool';
-$module_version = '2.1.0';
+$module_version = '2.2.0';
 $module_platform = '2.0.0';
 $module_author = 'Gerard Smelt';
 $module_license = 'All rights reserved';
 $module_license_terms = 'All rights reserved';
-$module_guid = 'ABA0CDC2-4DF0-4757-A806-313B7E98F9C8';
+$module_guid = '57122E77-9EFA-4271-B143-A59A00A6857C';
 $module_description = 'This module provides basic functionality for the gsm office application.';
 $module_home = 'http://www.contracthulp.nl';
 

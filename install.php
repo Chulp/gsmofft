@@ -3,7 +3,7 @@
  *  @module         Office toolset
  *  @version        see info.php of this module
  *  @author         Gerard Smelt
- *  @copyright      2015, Gerard Smelt
+ *  @copyright      2010-2016, Gerard Smelt
  *  @license        see info.php of this module
  *  @platform       see info.php of this module
  */

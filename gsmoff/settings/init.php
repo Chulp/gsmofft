@@ -3,11 +3,11 @@
  *  @module         Office toolset
  *  @version        see info.php of this module
  *  @author         Gerard Smelt
- *  @copyright      2015, Gerard Smelt
+ *  @copyright      2010-2016, Gerard Smelt
  *  @license        see info.php of this module
  *  @platform       see info.php of this module
  * this module is providing a number of application settings / file location
- * the intention is that these files are copied to the media directory
+ * the intention is that this file is copied to the media directory
  */
 // include class.secure.php to protect this file and the whole CMS!
 if ( defined( 'LEPTON_PATH' ) ) {
@@ -83,62 +83,4 @@ $place         = array(
   'document' => WB_PATH . MEDIA_DIRECTORY . '/' . CH_MODULE . '/documents/',
   'document1' => CH_LV . 'media/' . CH_MODULE . '/documents/' 
 );
-/*
-// location of the upload files
-// $place_upload = WB_PATH . MEDIA_DIRECTORY . '/'.CH_MODULE.'/uploads/';  
-// location of the backup
-$place_backup  = WB_PATH . MEDIA_DIRECTORY . '/' . CH_MODULE . '/backup/';
-$place_backupe = CH_LV . CH_LV . 'media/' . CH_MODULE . '/backup';
-// location of the image directory
-// afhankelijk van de server een van de twee volgende regels is van toepassing
-//$place_img = (dirname( __FILE__ )).'/img/'; 
-$place_img     = WB_URL . '/modules/' . CH_MODULE . 't/img/';
-$place_imge    = WB_URL . '/modules/' . CH_MODULE . 't/img/';
-// location of the pdf files
-$place_upload  = WB_PATH . MEDIA_DIRECTORY . '/' . CH_MODULE . '/pdf/';
-$place_uploade = CH_LV . CH_LV . 'media/' . CH_MODULE . '/pdf/';
-// location of the image directory
-// afhankelijk van de server een van de twee volgende regels is van toepassing
-global $place_imgx;
-$place_imgx = ( dirname( __FILE__ ) ) . '/img/';
-global $place_imgm;
-$place_imgm      = WB_URL . '/modules/' . CH_MODULE . CH_SUFFIX . '/img/';
-// userfile directory backup
-$place_documents = WB_PATH . MEDIA_DIRECTORY . '/' . CH_MODULE . '/documents';
-//$place_documente = CH_LV.CH_LV.'media/'.CH_MODULE.'/documents'; 
-$place_documente = CH_LV . 'media/' . CH_MODULE . '/documents';
-/******************
- *
- * debug
- *
- 
- if ($debug) {
- echo NL.__LINE__.'BASE=>'.CH_DBBASE;
- echo NL.__LINE__.'PATH=>'.CH_PATH;
- echo NL.__LINE__.'LOC=>'.CH_LOC;
- echo NL.__LINE__.'=>'.'CH_CR';
- echo NL.__LINE__.'=>'.'CH_LV';
- echo NL.__LINE__.'=>'.'NL';
- echo NL.__LINE__.'RETURN=>'.CH_RETURN;
- echo NL.__LINE__.'=>'.$page_id;
- echo NL.__LINE__.'=>'.$section_id;
- echo NL.__LINE__.'LOGIN=>'.CH_LOGIN;
- echo NL.__LINE__.'ROOT=>'.CH_ROOT;
- echo NL.__LINE__.'=>'.$place_upload;
- echo NL.__LINE__.'=>'.$place_backup;
- echo NL.__LINE__.'=>'.$place_backupe;
- echo NL.__LINE__.'=>'.$place_img;
- echo NL.__LINE__.'=>'.$place_imge;
- echo NL.__LINE__.'=>'.$place_imgm;
- echo NL.__LINE__.'=>'.$place_imgx;
- echo NL.__LINE__.'=>'.$place_upload;
- echo NL.__LINE__.'=>'.$place_uploade;
- echo NL.__LINE__.'=>'.$place_documents;
- echo NL.__LINE__.'=>'.$place_documente.NL;
- foreach ($place as $key => $value) { echo NL.__LINE__.' '.$key.'=>'.$value;}
- echo NL;
- }
- /******************
- * end debug
- */
 ?>
